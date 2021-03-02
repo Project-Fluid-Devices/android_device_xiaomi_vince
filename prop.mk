@@ -242,3 +242,8 @@ wifi.interface=wlan0
 PRODUCT_PROPERTY_OVERRIDES += \
 persist.debug.wfd.enable=1 \
 persist.sys.wfd.virtual=0
+
+# Fluid
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.fluid.cpu=SD625 \
+ro.fluid.maintainer=Sinchan
